@@ -131,6 +131,7 @@ int main(){
       dest -= 1;
 			SP.add_edge(src, dest, weight);
 		}
+    cout << "input k : ";
     cin >> k;
 		SP.dijkstra();
     vector<int> vec1,weight1;
